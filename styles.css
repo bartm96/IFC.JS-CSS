@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+html {
+    overflow: hidden;
+} 
+
+body {
+    width: auto;
+    height: 100vh; 
+    margin-top: 200px;
+    margin: auto;
+}
+
+input {
+    visibility: collapse;
+}
+
+div {
+    display: flex;
+    justify-content: center;
+}
+
+.button{
+    margin-left: 10px;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    flex-direction: column;
+    background-color: white;
+    border: 1px solid gray;
+}
+
+
+.button:hover {
+    background-color: black;
+    color: white;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+}
+
+.Menu-Project{
+    border: #ccc solid 2px;
+    margin: 10px;
+    border-radius: 10px;
+    width: 200px;
+}
+
+
+.Menu-Viewer{
+    text-decoration: none;
+    color: black;
+    margin-left: 10px;
+}
+
+.view-ifc{
+    width: 100vw; 
+    height: 100vh;
+    overflow: hidden;
+}
